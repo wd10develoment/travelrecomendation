@@ -1,0 +1,33 @@
+nav{
+    background-color: blueviolet;
+    display: flex; 
+    width: 100%;
+    justify-content: flex-start;
+}
+ul{
+    width: 33%;
+    display: flex; 
+    justify-content: space-evenly;
+    list-style:none;
+    
+}
+
+div{
+    width: 33%;
+    display: flex; 
+    justify-content: space-evenly;
+    text-decoration: none;
+    align-items: center;
+}
+body{background-image: url(" https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+body:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to right, rgba(255,0,0,0) 0%,rgba(255,0,0,0.65) 100%);
+}
